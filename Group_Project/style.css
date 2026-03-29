@@ -1,0 +1,108 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.Registration-Form{
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 450px;
+  min-height: 650px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  color: #1a202c;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.row .Input-Group{
+  flex: 1;
+  
+}
+
+.Input-Department{
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+}
+
+.Input-Year-of-Study{
+  width: 100%;
+}
+
+.Input-Phone-Numbers{
+  width: 100%;
+}
+
+.Input-Attendance{
+  width: 100%;
+}
+
+#dept{
+  max-width: 100%;
+}
+
+label{
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #4a5568; 
+}
+
+input, select{
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #e2e8f0;
+  width: 100%;
+  box-sizing: border-box;
+  color: #4a5568;
+  outline: none;
+}
+
+input:focus, select:focus{
+  border-color: #7c7cf0;
+}
+
+#attendance{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Submit-Button{
+  width: 100%;
+  padding: 14px;
+  background-color: #7c7cf0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ;
+}
+
+.Submit-Button:hover{
+  background-color: #6b6bd0;
+}

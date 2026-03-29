@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniAttend</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <main>
+    <div class="Registration-Form">
+      <h1>Student Registration</h1>
+      <form>
+        <div class="Input-Student-ID">
+          <label for="Student-ID">Student ID</label>
+          <input type="text" id="Student-ID" placeholder="e.g. 24807771" />
+        </div>
+        <div class="row">
+          <div class="Input-Department">
+            <label for="dept">Department</label>
+            <select id="dept">
+              <option>Select Department</option> <!-- Need to add options for the user to choose from: needs to be done -->
+            </select>
+          </div>
+          <div class="Input-Year-of-Study">
+            <label for="year">Year of Study</label>
+            <select id="year">
+              <option value="" disabled selected>Select Your Year of Study</option> 
+              <option value="0">Foundation Year</option> <!-- add more options other than "foundation year": DONE-->
+              <option value="1">Year 1</option>
+              <option value="2">Year 2</option>
+              <option value="3">Year 3</option>
+            </select>
+          </div>
+          <div class="Input-Phone-Numbers">
+            <label for="Phone-Numbers">Phone Number </label>
+              <input type="tel" id="Phone-Numbers" placeholder="e.g. 07770563331" />
+          </div>
+          <div class="Input-Attendance">
+        <label for="attendance">Attendance</label>
+            <select id="attendance">
+              <option value="" disabled selected>Select Your Attendance</option> 
+              <option value="0">Attending</option> <!-- add more options other than "foundation year": DONE-->
+              <option value="1">Not Attending</option>
+              <option value="2">Attending At home</option>
+            </select>
+        </div>
+        <button type="submit" class="Submit-Button"> Submit Attendance <span>→</span></button> <!-- Need to make the button functional (takes the user to a confirmation page): TO-DO -->
+      </form>
+    </div>
+    </main>
+  </body>
+</html>
